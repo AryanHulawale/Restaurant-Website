@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <div class="logo"><img src="assets/logo.png" alt="logo" width="150px"></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            id="Down" width="20" height="20">
+                            <path fill="#39db4a"
+                                d="M5.305 8.306a1.046 1.046 0 0 0 0 1.478l5.904 5.91c.228.228.536.33.834.302.27 0 .539-.101.744-.306l5.907-5.907a1.044 1.044 0 1 0-1.477-1.477l-5.22 5.22-5.216-5.22a1.043 1.043 0 0 0-1.476 0Z"
+                                class="color000000 svgShape"></path>
+                        </svg></li>
+                    <li><a href="#">Services</a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            id="Down" width="20" height="20">
+                            <path fill="#39db4a"
+                                d="M5.305 8.306a1.046 1.046 0 0 0 0 1.478l5.904 5.91c.228.228.536.33.834.302.27 0 .539-.101.744-.306l5.907-5.907a1.044 1.044 0 1 0-1.477-1.477l-5.22 5.22-5.216-5.22a1.043 1.043 0 0 0-1.476 0Z"
+                                class="color000000 svgShape"></path>
+                        </svg></li>
+                    <li><a href="#">Offers</a></li>
+                </ul>
+                <div class="last">
+                    <div class="searchimg"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40"
+                            height="40" viewBox="0 0 50 50">
+                            <path
+                                d="M 21 3 C 11.6 3 4 10.6 4 20 C 4 29.4 11.6 37 21 37 C 24.354553 37 27.47104 36.01984 30.103516 34.347656 L 42.378906 46.621094 L 46.621094 42.378906 L 34.523438 30.279297 C 36.695733 27.423994 38 23.870646 38 20 C 38 10.6 30.4 3 21 3 z M 21 7 C 28.2 7 34 12.8 34 20 C 34 27.2 28.2 33 21 33 C 13.8 33 8 27.2 8 20 C 8 12.8 13.8 7 21 7 z">
+                            </path>
+                        </svg></div>
+                    <div class="cartimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" id="cart"
+                            x="0px" y="0px" width="40" height="40">
+                            <path
+                                d="M63.2 161h164.7c-9.6-7.3-19.3-14.7-28.9-22 4.8 14.6 9.6 29.2 14.4 43.9 11.6 35.1 23.1 70.2 34.7 105.3C262 330.4 276 372.7 289.9 415c12.1 36.7 24.2 73.4 36.2 110.1 5.9 17.8 11.5 35.7 17.6 53.4.1.3.2.5.3.8 4.9 14.9 21 26.1 36.9 21 14.8-4.8 26.2-20.9 21-36.9-4.8-14.6-9.6-29.2-14.4-43.9-11.6-35.1-23.1-70.2-34.7-105.3-13.9-42.3-27.8-84.6-41.8-126.9-12.1-36.7-24.2-73.4-36.2-110.1-5.9-17.8-11.4-35.7-17.6-53.4-.1-.3-.2-.5-.3-.8-4.2-12.6-15.3-22-28.9-22H63.3c-15.7 0-30.7 13.8-30 30 .6 16.3 13.1 30 29.9 30z">
+                            </path>
+                            <path
+                                d="M347 556.1c-16.2 28.9-32.5 57.7-48.7 86.6-2.3 4.2-4.7 8.3-7 12.5-11.1 19.7 2.9 45.1 25.9 45.1h458c21.1 0 42.3.4 63.5 0h.9c15.7 0 30.7-13.8 30-30-.7-16.3-13.2-30-30-30h-458c-21.1 0-42.4-.6-63.5 0h-.9c8.6 15 17.3 30.1 25.9 45.1 16.2-28.9 32.5-57.7 48.7-86.6 2.3-4.2 4.7-8.3 7-12.5 7.7-13.7 3.7-33.4-10.8-41-14.2-7.4-32.8-3.8-41 10.8z">
+                            </path>
+                            <circle cx="746.5" cy="824.9" r="68.1"></circle>
+                            <path
+                                d="M658.4 824.9c.4 37.5 23.9 69.9 58.8 83 33 12.4 73.6 1.6 96.1-25.6 23.9-29 28.7-70.3 8.8-102.9-19.6-32.2-57.2-47.9-93.9-40.7-40.5 7.9-69.4 45.6-69.8 86.2-.1 10.5 9.3 20.5 20 20 10.9-.5 19.9-8.8 20-20 0-1.6.1-3.3.2-4.9 0-.7.1-1.4.2-2.1.3-4-.1 1.3-.2 1.2-.7-.4 2.1-9 2.4-9.8.3-.8.9-4.2 1.6-4.4.2-.1-1.8 3.7-.7 1.7.4-.8.8-1.6 1.1-2.4 1.5-3 3.3-5.7 5.1-8.5 1.9-2.9-2.7 3.1.5-.6 1-1.1 2-2.3 3.1-3.4s2.2-2.2 3.3-3.2c.5-.4 1-.9 1.5-1.3.7-.6 3.6-2 1-.9-2.2.9-.6.5.1 0s1.4-1 2.2-1.5c1.1-.7 2.2-1.4 3.4-2 1.5-.9 3.1-1.6 4.7-2.4.5-.3 2.6-1.3 0-.1-3 1.4 1-.3 1.3-.4 2.7-1 5.6-1.8 8.4-2.4.9-.2 1.8-.3 2.7-.5 2.2-.5-1.9.2-1.9.2 1.8 0 3.7-.4 5.5-.4 3.3-.1 6.5 0 9.8.3 3.7.3-3.8-.7.8.2 1.8.3 3.5.8 5.3 1.2 1.5.4 3 .9 4.5 1.4.4.1 2.4.8 2.5.9.1.3-3.7-1.9-1.7-.7 2.8 1.7 5.9 3 8.7 4.8.7.5 1.4 1 2.2 1.5.7.5 2.2.9.1 0-2-.8-.7-.6 0 .1.7.6 1.3 1.1 2 1.7 2.5 2.2 4.6 4.6 6.8 7 3 3.3-1.4-2.3.5.6.8 1.3 1.7 2.5 2.5 3.8.8 1.3 1.6 2.7 2.3 4l.9 1.8c1.9 3.6.4-.3-.1-.5 1.2.4 2.5 7.6 2.9 8.9.3 1.3.6 2.7.9 4 .8 3.8-.1-1.2-.1-1.3.5.5.3 2.8.3 3.4.2 3 .2 6.1 0 9.1-.1.9-.2 1.8-.2 2.8-.1 2-1.2 1.7.2-1.2-.7 1.5-.7 3.7-1.1 5.3-.7 2.8-1.8 5.5-2.6 8.3-.8 2.5 1.8-3.4.5-1.1-.3.5-.6 1.2-.8 1.8-.8 1.6-1.6 3.1-2.5 4.6-.8 1.3-1.6 2.6-2.5 3.9-2.7 4.1 1.9-2-.4.7-2.2 2.5-4.3 4.9-6.8 7.1-.4.4-2.8 3-3.5 3 0 0 4.1-2.8.9-.8-.6.4-1.1.7-1.6 1.1-2.8 1.8-5.7 3.3-8.6 4.8-3.1 1.6 3.6-1.2-.7.3-1.5.5-2.9 1-4.4 1.5-1.5.4-3 .8-4.6 1.2-.7.1-1.3.3-2 .4-4.4 1 3.2-.2.6 0-3.3.3-6.5.5-9.8.4-1.6 0-3.2-.2-4.9-.3-.6 0-3-.3-.1 0 3.3.3-.7-.2-1.4-.3-3.5-.7-6.9-1.8-10.3-3-.6-.2-2.6-1.2-.1 0 2.9 1.4-.6-.3-1.2-.6-1.6-.8-3.1-1.6-4.6-2.5-1.5-.9-2.9-1.9-4.4-2.9-2.4-1.5.3.8.9.8-.4 0-1.7-1.4-2-1.7-2.6-2.3-5.1-4.7-7.4-7.4 0 0-1.7-1.7-1.7-2 0 .4 2.4 3.4.8.9-1-1.5-2-2.9-2.9-4.4-1-1.7-1.9-3.5-2.8-5.2-2.1-4.1 1 3.2-.6-1.3-1.2-3.4-2.2-6.8-2.9-10.4-.1-.6-.1-1.5-.4-2 1.5 3.3.3 2.8.1.5-.2-2.1-.3-4.2-.3-6.3-.1-10.5-9.1-20.5-20-20-11.2.3-20.6 8.7-20.5 19.9z">
+                            </path>
+                            <circle cx="401.8" cy="824.9" r="68.1"></circle>
+                            <path
+                                d="M313.7 824.9c.4 37.5 23.9 69.9 58.8 83 33 12.4 73.6 1.6 96.1-25.6 23.9-29 28.7-70.3 8.8-102.9-19.6-32.2-57.2-47.9-93.9-40.7-40.6 7.9-69.4 45.6-69.8 86.2-.1 10.5 9.3 20.5 20 20 10.9-.5 19.9-8.8 20-20 0-1.6.1-3.3.2-4.9 0-.7.1-1.4.2-2.1.3-4-.1 1.3-.2 1.2-.7-.4 2.1-9 2.4-9.8.3-.8.9-4.2 1.6-4.4.2-.1-1.8 3.7-.7 1.7.4-.8.8-1.6 1.1-2.4 1.5-3 3.3-5.7 5.1-8.5 1.9-2.9-2.7 3.1.5-.6 1-1.1 2-2.3 3.1-3.4s2.2-2.2 3.3-3.2c.5-.4 1-.9 1.5-1.3.7-.6 3.6-2 1-.9-2.2.9-.6.5.1 0s1.4-1 2.2-1.5c1.1-.7 2.2-1.4 3.4-2 1.5-.9 3.1-1.6 4.7-2.4.5-.3 2.6-1.3 0-.1-3 1.4 1-.3 1.3-.4 2.7-1 5.6-1.8 8.4-2.4.9-.2 1.8-.3 2.7-.5 2.2-.5-1.9.2-1.9.2 1.8 0 3.7-.4 5.5-.4 3.3-.1 6.5 0 9.8.3 3.7.3-3.8-.7.8.2 1.8.3 3.5.8 5.3 1.2 1.5.4 3 .9 4.5 1.4.4.1 2.4.8 2.5.9.1.3-3.7-1.9-1.7-.7 2.8 1.7 5.9 3 8.7 4.8.7.5 1.4 1 2.2 1.5.7.5 2.2.9.1 0-2-.8-.7-.6 0 .1.7.6 1.3 1.1 2 1.7 2.5 2.2 4.6 4.6 6.8 7 3 3.3-1.4-2.3.5.6.8 1.3 1.7 2.5 2.5 3.8.8 1.3 1.6 2.7 2.3 4l.9 1.8c1.9 3.6.4-.3-.1-.5 1.2.4 2.5 7.6 2.9 8.9.3 1.3.6 2.7.9 4 .8 3.8-.1-1.2-.1-1.3.5.5.3 2.8.3 3.4.2 3 .2 6.1 0 9.1-.1.9-.2 1.8-.2 2.8-.1 2-1.2 1.7.2-1.2-.7 1.5-.7 3.7-1.1 5.3-.7 2.8-1.8 5.5-2.6 8.3-.8 2.5 1.8-3.4.5-1.1-.3.5-.6 1.2-.8 1.8-.8 1.6-1.6 3.1-2.5 4.6-.8 1.3-1.6 2.6-2.5 3.9-2.7 4.1 1.9-2-.4.7-2.2 2.5-4.3 4.9-6.8 7.1-.4.4-2.8 3-3.5 3 0 0 4.1-2.8.9-.8-.6.4-1.1.7-1.6 1.1-2.8 1.8-5.7 3.3-8.6 4.8-3.1 1.6 3.6-1.2-.7.3-1.5.5-2.9 1-4.4 1.5-1.5.4-3 .8-4.6 1.2-.7.1-1.3.3-2 .4-4.4 1 3.2-.2.6 0-3.3.3-6.5.5-9.8.4-1.6 0-3.2-.2-4.9-.3-.6 0-3-.3-.1 0 3.3.3-.7-.2-1.4-.3-3.5-.7-6.9-1.8-10.3-3-.6-.2-2.6-1.2-.1 0 2.9 1.4-.6-.3-1.2-.6-1.6-.8-3.1-1.6-4.6-2.5-1.5-.9-2.9-1.9-4.4-2.9-2.4-1.5.3.8.9.8-.4 0-1.7-1.4-2-1.7-2.6-2.3-5.1-4.7-7.4-7.4 0 0-1.7-1.7-1.7-2 0 .4 2.4 3.4.8.9-1-1.5-2-2.9-2.9-4.4-1-1.7-1.9-3.5-2.8-5.2-2.1-4.1 1 3.2-.6-1.3-1.2-3.4-2.2-6.8-2.9-10.4-.1-.6-.1-1.5-.4-2 1.5 3.3.3 2.8.1.5-.2-2.1-.3-4.2-.3-6.3-.1-10.5-9.1-20.5-20-20-11.3.3-20.7 8.7-20.5 19.9zM960.8 258 839.4 571H372.9L269.7 258z">
+                            </path>
+                            <path
+                                d="M941.5 252.5c-13.7 35.3-27.3 70.6-41 105.9-21.8 56.3-43.6 112.5-65.3 168.8-5 12.9-10 25.9-15 38.8 6.4-4.9 12.9-9.8 19.3-14.7H430.4c-18.8 0-37.8-.8-56.7 0h-.8c6.4 4.9 12.9 9.8 19.3 14.7-11.7-35.5-23.3-70.9-35-106.4-18.5-56.1-37-112.2-55.4-168.4-4.3-12.9-8.5-25.8-12.8-38.8-6.4 8.4-12.9 16.9-19.3 25.3H932.8c9 0 18 .2 26.9 0h1.2c10.5 0 20.5-9.2 20-20s-8.8-20-20-20H297.8c-9 0-18-.2-26.9 0h-1.2c-12.5 0-23.4 12.9-19.3 25.3 11.7 35.5 23.3 70.9 35 106.4 18.5 56.1 37 112.2 55.4 168.4 4.3 12.9 8.5 25.8 12.8 38.8 2.8 8.4 10.2 14.7 19.3 14.7H782c18.8 0 37.8.7 56.7 0h.8c9.5 0 16.1-6.4 19.3-14.7 13.7-35.3 27.3-70.6 41-105.9 21.8-56.3 43.6-112.5 65.3-168.8 5-12.9 10-25.9 15-38.8 3.8-9.8-4.2-22.4-14-24.6-11.5-2.6-20.6 3.5-24.6 14z">
+                            </path>
+                        </svg></div>
+                    <div class="contact-us"><a class="Contact" href="#">Contact Us</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="hero-sec-1">
+                <div class="first">
+                    
+                    <h1>Dive into Delights Of Delectable <span class="green">Food</span></h1>
+                    <p>Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
+                    <div class="contact-us order-now"><a class="Contact" href="#">Order Now</a></div>
+                </div>
+                <div class="second"><img src="assets/first.png" class="first-img" alt=""></div>
+        </section>
+        <section>
+            <div class="sec-2-redtext sec-2">CUSTOMER FAVORITES</div>
+            <div class="sec-2-heading sec-2">Popular Catagories</div>
+            <div class="hero-sec-2">
+                <div class="container">
+                    <div class="img-container"><img src="assets/burger.png" alt="burger"   class="img-container-img" width="120px"></div>
+                    <div class="text-container">
+                        <p>Main Dish</p>
+                    </div>
+                    <div class="dishes-container">
+                        <p>(86 dishes)</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="img-container"><img src="assets/sandwich.png" alt="burger"  class="img-container-img" width="139px"></div>
+                    <div class="text-container">
+                        <p>Break fast</p>
+                    </div>
+                    <div class="dishes-container">
+                        <p>(14 dishes)</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="img-container"><img src="assets/icecream.png" alt="burger" class="img-container-img" width="139px"></div>
+                    <div class="text-container">
+                        <p>Desserts</p>
+                    </div>
+                    <div class="dishes-container">
+                        <p>(48 dishes)</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="img-container"><img src="assets/orangejuice.png" alt="burger" width="80px"></div>
+                    <div class="text-container">
+                        <p>Browse All</p>
+                    </div>
+                    <div class="dishes-container">
+                        <p>(255 dishes)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="sec-3-redtext sec-3">SPECIAL DISHES</div>
+            <div class="sec-3-heading sec-3">Standout Dishes</div>
+
+            <div class="sec-3-heading sec-3-heading-3 sec-3">
+
+                <div>From Our Menu</div>
+
+                <div>
+                    <button class="but">
+                        < </button>
+                            <button class="but but-2">></button>
+                </div>
+            </div>
+            <div class="hero-sec-3">
+                <div class="container-2">
+                    <div class="img-container-2"><img src="assets/pannertikka.png" alt="burger" width="300px"
+                            height="200px">
+                    </div>
+                    <div class="text-container-2">
+                        <p>Panner Tikka</p>
+                    </div>
+                    <div class="dishes-container-2">
+                        <p>Description of item</p>
+                    </div>
+
+                    <div class="price-text">
+                        <div>₹250/-</div>
+                        <div class="rating"><img
+                                src="https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg"
+                                alt="" width="32px" height="32px">4.9</div>
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="img-container-2"><img src="assets/biryani.png" alt="burger" width="300px"
+                            height="320px"></div>
+                    <div class="text-container-2">
+                        <p>Chicken Biryani</p>
+                    </div>
+                    <div class="dishes-container-2">
+                        <p>Description of item</p>
+                    </div>
+                    <div class="price-text">
+                        <div>₹ 350/-</div>
+                        <div class="rating"><img
+                                src="https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg"
+                                alt="" width="32px" height="32px">4.6</div>
+                    </div>
+
+                </div>
+                <div class="container-2">
+                    <div class="img-container-2"><img src="assets/eggcurry.png" alt="burger" width="350px"
+                            height="350px"></div>
+                    <div class="text-container-2">
+                        <p>Egg Curry</p>
+                    </div>
+                    <div class="dishes-container-2">
+                        <p>Description of item</p>
+                    </div>
+
+                    <div class="price-text">
+                        <div>₹300/-</div>
+                        <div class="rating"><img
+                                src="https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg"
+                                alt="" width="32px" height="32px">4.4</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+            <div class="hero-sec-4">
+                <div class="img-container-3"><img src="assets/second.png" alt="" class="img-container-3-img"></div>
+                <div class="text-container-3">
+                    <div class="sec-4-redtext">Testimonials</div>
+                    <div class="sec-4-heading">
+                        <Say>What Our Customers Say About Us</h1>
+                    </div>
+                    <div class="sec-4-para">
+                        <p>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience!
+                            The
+                            attention to detail in presentation and service was impeccable”</p>
+                    </div>
+                    <div class="feedback">
+                        <div class="customer-img"><img src="assets/customers.png" alt="" width="194px" height="80px">
+                        </div>
+                        <div class="sec-4-text">
+                            <div>
+                                <h1>Customer Feedback</h1>
+                                <div class="sec-4-text-inside">
+                                    <span>
+                                        <img src="https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg"
+                                            alt="" width="32px" height="32px">
+                                    </span>
+                                    <span>4.5</span>
+                                    <span>(18.6k Reviews)</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+
+
+            <div class="hero-sec-5">
+
+                <div class="text-container-4">
+                    <div class="sec-5-redtext">Our Story & Services</div>
+                    <div class="sec-5-heading">
+                        <Say>Our Culinary Journey And Services</Say>
+                    </div>
+                    <div class="sec-5-para">
+                        <p>Rooted in passion, we curate unforgettable dining experiences and offer exceptional services,
+                            blending
+                            culinary artistry with warm hospitality.</p>
+                    </div>
+                    <div class="explore-now"><a class="Contact" href="#">Explore</a></div>
+                </div>
+                <div class="blocks-container">
+                    <div class="sub-container-1">
+                        <div class="box">
+                            <div class="box-img"><svg fill="#5FE26C" width="64px" height="64px" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#5FE26C">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M22,7H20.908C20.562,5.083,19.185,4,17,4c-.794,0-1.825-.906-2.654-1.633C13.478,1.6,12.791,1,12,1,10.906,1,9.057,2.567,7.592,4c-.14.053-3.585-.518-4.452,3H2A1,1,0,0,0,1,8v4a11,11,0,0,0,22,0V8A1,1,0,0,0,22,7ZM7,6h4a1,1,0,0,0,0-2h-.42a7.449,7.449,0,0,1,1.378-.986,8.616,8.616,0,0,1,1.068.855C14.107,4.818,15.452,6,17,6c1.038,0,1.613.3,1.857,1H5.234A1.772,1.772,0,0,1,7,6ZM3,9H21v2H3Zm9,12a9.011,9.011,0,0,1-8.941-8H20.941A9.011,9.011,0,0,1,12,21Z">
+                                        </path>
+                                    </g>
+                                </svg></div>
+                            <div class="box-heading">Catering</div>
+                            <div class="box-para">Delight your guests with our flavors and presentation</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="box-img"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#5FE26C">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M7.2998 5H22L20 12H8.37675M21 16H9L7 3H4M4 8H2M5 11H2M6 14H2M10 20C10 20.5523 9.55228 21 9 21C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19C9.55228 19 10 19.4477 10 20ZM21 20C21 20.5523 20.5523 21 20 21C19.4477 21 19 20.5523 19 20C19 19.4477 19.4477 19 20 19C20.5523 19 21 19.4477 21 20Z"
+                                            stroke="#5FE26C" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                        </path>
+                                    </g>
+                                </svg></div>
+                            <div class="box-heading">Online Ordering</div>
+                            <div class="box-para">Explore menu & order with ease using our Online Ordering </div>
+                        </div>
+
+                    </div>
+                    <div class="sub-container-2">
+                        <div class="box">
+                            <div class="box-img"><svg fill="#5FE26C" width="64px" height="64px"
+                                    viewBox="-1.68 -1.68 27.36 27.36" id="Layer_1" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#5FE26C">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M9,24H1a1,1,0,0,1,0-2H9a1,1,0,0,1,0,2Z M7,20H1a1,1,0,0,1,0-2H7a1,1,0,0,1,0,2Z M5,16H1a1,1,0,0,1,0-2H5a1,1,0,0,1,0,2Z M13,23.955a1,1,0,0,1-.089-2A10,10,0,1,0,2.041,11.09a1,1,0,0,1-1.992-.18A12,12,0,0,1,24,12,11.934,11.934,0,0,1,13.09,23.951C13.06,23.954,13.029,23.955,13,23.955Z M12,6a1,1,0,0,0-1,1v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414L13,11.586V7A1,1,0,0,0,12,6Z">
+                                        </path>
+                                    </g>
+                                </svg></div>
+                            <div class="box-heading">Fast delivery</div>
+                            <div class="box-para">We deliver your order promptly to your door</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-img"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#5FE26C">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M3 9.5C3 9.03534 3 8.80302 3.03843 8.60982C3.19624 7.81644 3.81644 7.19624 4.60982 7.03843C4.80302 7 5.03534 7 5.5 7H12H18.5C18.9647 7 19.197 7 19.3902 7.03843C20.1836 7.19624 20.8038 7.81644 20.9616 8.60982C21 8.80302 21 9.03534 21 9.5V9.5V9.5C21 9.96466 21 10.197 20.9616 10.3902C20.8038 11.1836 20.1836 11.8038 19.3902 11.9616C19.197 12 18.9647 12 18.5 12H12H5.5C5.03534 12 4.80302 12 4.60982 11.9616C3.81644 11.8038 3.19624 11.1836 3.03843 10.3902C3 10.197 3 9.96466 3 9.5V9.5V9.5Z"
+                                            stroke="#5FE26C" stroke-width="2" stroke-linejoin="round"></path>
+                                        <path
+                                            d="M4 12V16C4 17.8856 4 18.8284 4.58579 19.4142C5.17157 20 6.11438 20 8 20H9H15H16C17.8856 20 18.8284 20 19.4142 19.4142C20 18.8284 20 17.8856 20 16V12"
+                                            stroke="#5FE26C" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                        </path>
+                                        <path d="M12 7V20" stroke="#5FE26C" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M11.3753 6.21913L9.3959 3.74487C8.65125 2.81406 7.26102 2.73898 6.41813 3.58187C5.1582 4.8418 6.04662 7 7.82843 7L11 7C11.403 7 11.6271 6.53383 11.3753 6.21913Z"
+                                            stroke="#5FE26C" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                        </path>
+                                        <path
+                                            d="M12.6247 6.21913L14.6041 3.74487C15.3488 2.81406 16.739 2.73898 17.5819 3.58187C18.8418 4.8418 17.9534 7 16.1716 7L13 7C12.597 7 12.3729 6.53383 12.6247 6.21913Z"
+                                            stroke="#5FE26C" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                        </path>
+                                    </g>
+                                </svg></div>
+                            <div class="box-heading">Gift Cards</div>
+                            <div class="box-para">Give the gift of exceptional dining with Foodi Gift Cards</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-sec-1">
+                <div class="link-info">
+                    <div class="logo"><img src="assets/logo.png" alt="" width="160px" height="80px"></div>
+                    <div class="info">Savor the artistry where every dish is a culinary masterpiece</div>
+                    <div>&nbsp;</div>
+                </div>
+                <div class="useful-links">
+                    <div class="link-heading">
+                        Useful links
+                    </div>
+                    <div class="links">
+                        <div>About us</div>
+                        <div>Events</div>
+                        <div>Blogs</div>
+                        <div>FAQs</div>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div class="link-heading">
+                        Main Menu
+                    </div>
+                    <div class="links">
+                        <div>Home</div>
+                        <div>Offers</div>
+                        <div>Menu</div>
+                        <div>Reservation</div>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div class="link-heading">
+                        Contact Us
+                    </div>
+                    <div class="links">
+                        <div>example@email.com</div>
+                        <div>+64 958 248 966</div>
+                        <div>Social media</div>
+                        <div>&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-last">
+                <div class="social-links">
+                    <div><svg fill="#fff" width="64px" height="64px" viewBox="-633.6 -633.6 3187.20 3187.20"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-633.6" y="-633.6" width="3187.20" height="3187.20" rx="1593.6" fill="#39DB4A"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="m1416.013 791.915-30.91 225.617h-371.252v789.66H788.234v-789.66H449.808V791.915h338.426V585.137c0-286.871 176.207-472.329 449.09-472.329 116.87 0 189.744 6.205 231.822 11.845l-3.272 213.66-173.5.338c-4.737-.451-117.771-9.25-199.332 65.655-52.568 48.169-79.191 117.433-79.191 205.65v181.96h402.162Zm-247.276-304.018c44.446-41.401 113.71-36.889 118.787-36.663l289.467-.113 6.204-417.504-43.544-10.717C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l61.932-451.233H1126.66v-69.152c0-54.937 14.214-96 42.078-122.058Z"
+                                    fill-rule="evenodd"></path>
+                            </g>
+                        </svg></div>
+                    <div><svg width="64px" height="64px" viewBox="-7.2 -7.2 38.40 38.40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-7.2" y="-7.2" width="38.40" height="38.40" rx="19.2" fill="#fff"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                    fill="#0F0F0F"></path>
+                                <path
+                                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                    fill="#0F0F0F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                    fill="#0F0F0F"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div><svg width="64px" height="64px" viewBox="-7.2 -7.2 38.40 38.40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-7.2" y="-7.2" width="38.40" height="38.40" rx="19.2" fill="#fff"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z"
+                                    fill="#0F0F0F"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div>
+                        <svg fill="#000000" width="64px" height="64px" viewBox="-9.6 -9.6 51.20 51.20"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" stroke="#000000"
+                            stroke-width="0.00032">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-9.6" y="-9.6" width="51.20" height="51.20" rx="25.6" fill="#fff"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="copywrite-text">Copyright &copy; 2023 Dscode | All rights reserved</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
