@@ -65,7 +65,7 @@ a {
     flex-direction: row;
     margin-top: 0;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right:50px;
     gap: 100px;
 }
 
@@ -597,7 +597,7 @@ a {
     }
 
     .first h1 {
-        font-size: 50px;
+        font-size: 45px;
         margin-top: 0;
     }
 
@@ -607,7 +607,7 @@ a {
 
     .first-img {
         margin: auto;
-        width: 400px;
+        /* width: 400px; */
     }
 
     /* section 2 */
@@ -616,7 +616,7 @@ a {
     }
 
     .sec-2-heading {
-        font-size: 50px;
+        font-size: 45px;
         width: 100%;
         text-align: center;
     }
@@ -637,7 +637,7 @@ a {
 
     /* section 3 */
     .sec-3-heading {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .sec-3-heading-3 {
@@ -649,7 +649,7 @@ a {
 
     /* section 4 */
     .sec-4-heading {
-        font-size: 50px;
+        font-size: 45px;
         margin-left: auto;
         margin-right: auto;
         width: auto;
@@ -679,7 +679,7 @@ a {
 
     /* section 5 */
     .sec-5-heading {
-        font-size: 50px;
+        font-size: 45px;
         margin-left: auto;
         margin-right: auto;
         width: auto;
@@ -694,16 +694,46 @@ a {
 }
 
 @media (max-width:600px) {
+    .searchimg{
+        display: none;
+    }
+    .cartimg {
+        display: none;
+    }
+    .first-img {
+        margin: auto;
+        width: 350px;
+    }
+    .order-now {
+        margin-left: 10%;
+    }
+    .container {
+        height: 320px;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
     .container-2{
-        width: 400px;
+        width: 350px;
         height: 490px;
+        
     }
     .blocks-container {
         flex-direction: column;
     }
+    .img-container-3-img{
+        width: 350px;
+    }
     .feedback {
         flex-direction: column;
         align-items: start;
-        gap: 10;
+        gap: 0;
+    }
+    .blocks-container{
+        gap: 0;
+    }
+    .copywrite-text{
+        margin: auto;
+        text-align: center;
     }
 }
