@@ -694,6 +694,9 @@ a {
 }
 
 @media (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
     .searchimg{
         display: none;
     }
