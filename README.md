@@ -1,15 +1,16 @@
-🌟 Just Launched: A Responsive Restaurant Website! 🌟
+# CSS Skills Practice Project
 
-Exciting news! I’ve just completed a fully responsive restaurant website using only HTML and CSS! 🍽✨
+This is my first web project, created to practice and improve my HTML and CSS skills. The project involves cloning a design from Figma to a fully responsive web page, focusing on layout, styling, and visual accuracy.
 
-This project showcases the power of CSS in creating dynamic, user-friendly web experiences without JavaScript.
-By leveraging the skills I acquired from Colt Steele's comprehensive web development course, I designed a site that looks great on any device.
+## Figma Design
+You can view the original Figma design here: [Restaurant Website UI Template](https://www.figma.com/community/file/1277277072882405551/restaurant-website-ui-template)
 
-🎯 Key Highlights:
+## Features
+- Pixel-perfect cloning of a Figma design
+- Responsive layout using HTML and CSS
+- Media queries implemented for various screen sizes
+- Modern styling techniques like flexbox and grid
+- Practice in typography, colors, and spacing
 
-● Responsive design for seamless viewing on desktops, tablets, and mobiles.
-● Clean and modern layout to enhance user engagement.
-● Built exclusively with HTML and CSS – no JavaScript!
-
-But the journey doesn't stop here!
-Starting tomorrow, I'm diving into JavaScript to add even more interactivity and functionality to this project. Can't wait to see how it transforms!
+## Purpose
+The main goal of this project was to enhance my CSS skills by translating a Figma design into a functional web page, ensuring attention to detail, responsive design principles, and smooth display across devices.
